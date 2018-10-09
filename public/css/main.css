@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: 'Oxygen', Helvetica, sans-serif;
   font-weight: 700;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -490,6 +490,7 @@ textarea.form-control, textarea.form-control:focus {
 .pt-page .section-inner {
   position: relative;
   padding: 20px 60px 50px;
+
 }
 
 .no-js .pt-page {
@@ -563,6 +564,7 @@ textarea.form-control, textarea.form-control:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+
 }
 
 .section-paddings-0 {
@@ -971,19 +973,20 @@ ul.social-links li:last-child a {
   display: table-cell;
   vertical-align: middle;
 }
-
+/* richa */
 .home-page-block {
-  position: relative;
   display: block;
   width: 100%;
   z-index: 1;
+ 
 }
 
 .home-page-block h2 {
-  color: #ffc107;
+  color: #181717;
   text-align: center;
   font-size: 70px;
   margin: 0;
+  
 }
 
 .home-page-description {
@@ -991,8 +994,9 @@ ul.social-links li:last-child a {
   font-size: 21px;
   font-weight: 300;
   font-family: 'Oxygen', Helvetica, sans-serif;
-  margin: 0 0 5px;
+  margin: 29px 0 0 5px;
   text-align: center;
+  margin-left: -2em;
 }
 
 
@@ -1066,7 +1070,7 @@ ul.social-links li:last-child a {
 .client-block {
   text-align: center;
   padding: 5px 0;
-  opacity: 0.4;
+  opacity: .9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1080,6 +1084,11 @@ ul.social-links li:last-child a {
 
 .client-block img {
   max-width: 80px;
+}
+
+
+.vahan{
+  max-width: 130px !important;
 }
 /* /Clients */
 
@@ -1309,15 +1318,15 @@ ul.social-links li:last-child a {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 98%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 85%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 60%;
+  width: 89%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
@@ -1329,15 +1338,75 @@ ul.social-links li:last-child a {
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 72%;
+  width: 92%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 60%;
+  width: 80%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
+  width: 97%;
+}
+/* Skills */
+/*Skill 9*/
+.skill-percentage.skill-9 {
+  width: 99%;
+}
+/* Skills */
+/*Skill 10*/
+.skill-percentage.skill-10 {
+  width: 67%;
+}
+/* Skills */
+/*Skill 11*/
+.skill-percentage.skill-11 {
   width: 77%;
+}
+/* Skills */
+/*Skill 12*/
+.skill-percentage.skill-12 {
+  width: 87%;
+}
+/* Skills */
+/*Skill 13*/
+.skill-percentage.skill-13 {
+  width: 79%;
+}
+/* Skills */
+/*Skill 14*/
+.skill-percentage.skill-14 {
+  width: 90%;
+}
+/* Skills */
+/*Skill 15*/
+.skill-percentage.skill-15 {
+  width: 87%;
+}
+/* Skills */
+/*Skill 16*/
+.skill-percentage.skill-16 {
+  width: 67%;
+}
+/* Skills */
+/*Skill 17*/
+.skill-percentage.skill-17 {
+  width: 97%;
+}
+/* Skills */
+/*Skill 18*/
+.skill-percentage.skill-18 {
+  width: 62%;
+}
+/* Skills */
+/*Skill 19*/
+.skill-percentage.skill-19 {
+  width: 99%;
+}
+/* Skills */
+/*Skill 20*/
+.skill-percentage.skill-20 {
+  width: 79%;
 }
 /* Skills */
 
@@ -2065,7 +2134,7 @@ ul.social-links li:last-child a {
 }
 
 .template-style-dark .home-page-block h2 {
-  color: #ffc107;
+  color: #383838;
 }
 
 .template-style-dark .home-page-description {
@@ -2108,8 +2177,8 @@ ul.social-links li:last-child a {
 
 /* Invert Clients Logo Images (Black to White) */
 .template-style-dark .client-block img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  /* -webkit-filter: invert(100%);
+  filter: invert(100%); */
 }
 
 .template-style-dark .fun-fact-block {
